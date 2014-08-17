@@ -48,7 +48,6 @@ var Rectangle = React.createClass({
 
 var Player = React.createClass({
   draw: function() {
-    var top = this.props.name === "North" ? 20 : this.props.windowHeight - 30;
     return {top: this.props.top};
   },
   renderScore: function() {
